@@ -1,7 +1,4 @@
-# audio_session_finder
-
 Audio Session Matcher
-
 A user-friendly desktop application built with Python and Tkinter for managing and matching audio files to their corresponding Digital Audio Workstation (DAW) session files. Ideal for audio engineers, producers, and hobbyists looking to streamline file organization and enhance workflow.
 
 Features
@@ -25,19 +22,41 @@ View matched results, including the session file name, corresponding DAW, and mo
 Clear selections and results to start a new search as needed.
 Installation
 Clone this repository:
+
 bash
 Copy code
-git clone https://github.com/your-username/audio-session-matcher.git  
-cd audio-session-matcher  
+git clone https://github.com/your-username/audio-session-matcher.git
+cd audio-session-matcher
 Install dependencies:
+
 bash
 Copy code
-pip install mutagen  
+pip install mutagen
 Run the application:
+
 bash
 Copy code
-python audio_session_matcher.py  
+python audio_session_matcher.py
 Future Improvements
 Add support for more DAW formats.
-Implement a fuzzy matching algorithm for better accuracy.
+Implement a fuzzy matching algorithm for better accuracy.    
 Enable exporting matched results to a CSV file.
+Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork this repository.
+Create a new branch for your feature/bug fix:
+bash
+Copy code
+git checkout -b feature-name
+Commit your changes:
+bash
+Copy code
+git commit -m "Description of your changes"
+Push to your branch:
+bash
+Copy code
+git push origin feature-name
+Open a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
