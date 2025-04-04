@@ -35,7 +35,7 @@ A user-friendly desktop application built with Python and Tkinter for managing a
 
 ### Clone this repository:
 ```bash
-git clone https://github.com/your-username/audio-session-matcher.git
+git clone https://github.com/tarnishedcoder/audio-session-matcher.git
 cd audio-session-matcher
 ```
 
